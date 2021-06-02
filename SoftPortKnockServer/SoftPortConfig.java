@@ -19,20 +19,20 @@ public class SoftPortConfig {
         return this.ipToFwrd;
     }
 
-    //Only for Creating/Reading config lists
+    // //Only for Creating/Reading config lists
     // public static void main(String[] args) {
     //     List<Rule> rulesList;
         
     //     // //Creating config
     //     rulesList = new ArrayList<>();
-    //     rulesList.add(new Rule("192.168.0.134", 2456, 5000));
-    //     rulesList.add(new Rule("192.168.0.134", 3300, 4000));
-    //     rulesList.add(new Rule("192.168.0.134", 1245, 6000));
+    //     rulesList.add(new Rule("192.168.0.143", 2456, 0));
+    //     rulesList.add(new Rule("192.168.0.143", 3300, 4000));
+    //     rulesList.add(new Rule("192.168.0.143", 1245, 6000));
     //     SoftPortConfigParser.getInstance().exportConfig(rulesList, "config.confx");
 
-    //     //Reading config
-    //     rulesList = SoftPortConfigParser.getInstance().importConfig("config.confx");
-    //     for(Rule r : rulesList)
-    //         System.out.println(r);
+    //     // //Reading config
+    //     // rulesList = SoftPortConfigParser.getInstance().importConfig("config.confx");
+    //     // for(Rule r : rulesList)
+    //     //     System.out.println(r);
     // }
 }
