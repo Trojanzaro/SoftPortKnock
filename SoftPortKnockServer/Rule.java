@@ -1,3 +1,4 @@
+package SoftPortKnockServer;
 import java.io.Serializable;
 
 public class Rule implements Serializable {
